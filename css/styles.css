@@ -1,0 +1,99 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+GENERAL 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+NAV 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+nav {
+    border-bottom: 1px solid #ededed;
+}
+
+.navbar > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container ul {
+    display: flex;
+}
+
+nav .container ul li {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.logo {
+    background: url('./img/logo.svg');
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 600px) {
+    nav .container {
+        padding: 0 30px;
+    }
+
+    nav .container ul {
+        display: none;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CARDS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Your styles go here */
+
+.tilesContainer {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 9.5em;
+    margin-right: 9.5em;
+} 
+
+.card-row {
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em;
+    margin: 1em;
+    box-shadow:  6px 6px 5px 0px rgba(153, 153, 153, 0.50);
+}
+
+
+h2 {
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#ffffff;
+}
+ 
+button {
+    width: 9vw;
+    padding: 5px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
